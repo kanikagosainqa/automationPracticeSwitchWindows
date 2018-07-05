@@ -93,7 +93,7 @@ public class NewTest extends MainClass{
   }
   
   //tc7 - 
-  @Test(priority=7)
+  @Test(enabled=false,priority=7)
   public void alertBox() {
 	  //String firstWindowHandle = driver.getWindowHandle();
 	  driver.findElement(By.xpath("#alert")).click();
